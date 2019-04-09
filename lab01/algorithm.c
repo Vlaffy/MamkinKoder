@@ -1,5 +1,5 @@
-? doComputation(?) {
-  int c = max(3, 4);    
+int  doComputation(int a,int b) {
+  int c = max(a, b);    
   logDebug('d');
   return c;
 }

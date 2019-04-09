@@ -1,6 +1,11 @@
-main() {
-  int a = doComputation(5, 7.0); 
+#include <stdio.h>
+
+int main() {
+  int a = doComputation(5, 7); 
   int b = 5;
-  max(a, b);
-  logDebug('!');   
+  int c = max(a, b);
+  printf("result is %d\n",c);
+  logDebug('!');  
+ 
+  return 0; 
 }
